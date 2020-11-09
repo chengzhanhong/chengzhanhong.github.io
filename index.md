@@ -13,5 +13,5 @@ Hello, I am Zhanhong Cheng (程展鸿). I am building my website.
 # News
 Start my website.
 
-# Selected pblications
+# Selected publications
 Thanks for reading!

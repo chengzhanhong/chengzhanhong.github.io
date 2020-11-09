@@ -6,6 +6,17 @@ comments: true
 tags: Tale
 ---
 
+test some figures.
+
+<figure style="float:right;">
+  <img src="../assets/images/zhanhong.jpg" width="200" height="200" alt="my alt text"/>
+  <figcaption>This is a photo of me.</figcaption>
+</figure>
+
+![](/assets/images/Zhanhong.jpg)
+![](/assets/images/Zhanhong.jpg)
+
+
 Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
 
 ## Tale features
