@@ -33,7 +33,7 @@ plugins:
 # Permalinks
 paginate:       5
 permalink:      /:year-:month-:day/:title
-paginate_path: "/archive/page:num/"
+paginate_path: "/posts/page:num/"
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
