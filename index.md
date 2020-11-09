@@ -1,11 +1,17 @@
 ---
 layout: initial
 ---
-<img align="right" width="200" height="200" src="/assets/images/Zhanhong.jpg">
+
+<figure style="float:right;">
+  <img src="assets/images/zhanhong.jpg" width="200" height="200" alt="my alt text"/>
+  <figcaption>This is a photo of me.</figcaption>
+</figure>
+
+# About me
 Hello, I am Zhanhong Cheng (程展鸿). I am building my website.
 
-## News
+# News
 Start my website.
 
-## Publications
+# Selected pblications
 Thanks for reading!

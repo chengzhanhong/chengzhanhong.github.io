@@ -55,6 +55,34 @@ blockquote {
   }
 }
 
+
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+figcaption {
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
 img {
   display: block;
   margin: 0 0 1rem;
