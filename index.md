@@ -8,7 +8,7 @@ layout: initial
 </figure>
 
 # About me
-Hello, I am Zhanhong Cheng (程展鸿). I am building my website.
+Hello, I am Zhanhong Cheng (程展鸿). I am building my website. It is very interesting.
 
 # News
 Start my website.
