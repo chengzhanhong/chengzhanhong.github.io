@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
+title:          Zhanhong Cheng
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+# baseurl:        "/tale"
+url:            "https://chengzhanhong.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         Zhanhong Cheng
   url:          https://chester.how
-  email:        chesterhow@gmail.com
+  email:        chengzhanhong@mail.mcgill.ca
 
 # Build settings
 markdown:       kramdown
