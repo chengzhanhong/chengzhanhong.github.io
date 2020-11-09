@@ -32,7 +32,7 @@ plugins:
 
 # Permalinks
 paginate:       5
-permalink:      /posts/:year-:month-:day/:title
+permalink:      /:year-:month-:day/:title
 paginate_path: "/posts/page:num/"
 
 # Excludes
