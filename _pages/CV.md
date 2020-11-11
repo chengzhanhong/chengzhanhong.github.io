@@ -17,7 +17,7 @@ permalink: /cv/
 - [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2)
 
 ## Education
-- 2019.01-Current, Ph.D. student at McGill University.
+- 2019.01-current, Ph.D. student at McGill University.
 - 2016.09-2018.07, M.S. in Transportation Planning and Management, Harbin Institute of Technology.
 - 2012.08-2016.07, B.Eng. in Traffc Engineering, Harbin Institute of Technology.
 

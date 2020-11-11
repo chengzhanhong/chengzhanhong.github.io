@@ -57,10 +57,14 @@ blockquote {
 
 
 figcaption {
-  font: smaller sans-serif;
-  padding: 3px;
+  color: $default-tint;
+  display: block;
+  font-family: $sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
   text-align: center;
 }
+
 
 
 img {
