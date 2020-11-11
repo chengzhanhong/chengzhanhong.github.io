@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Archived-news"
+title:  "Archived news"
 author: "Zhanhong Cheng"
 comments: false
 tags: Tale

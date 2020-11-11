@@ -10,23 +10,22 @@ layout: initial
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
-Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/). I received my master’s and bachelor’s degree in transportation from Harbin Institute of Technology (HIT).
+Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/). My current research focuses on improving transit ridership forecasting by passenger’s travel behavior. I received my master’s and bachelor’s degree in transportation from Harbin Institute of Technology. My research there was route choice models and traffic paradox.
 
-My current research focuses on improving transit ridership forecasting by passenger’s travel behavior. My research interests include spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation.
+I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en), [Github](https://github.com/chengzhanhong), [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2), or by [email](mailto:zhanhong.cheng@mail.mcgill.ca). 
 
-Find me more in my [CV](_pages/CV.md).
-- [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en), 
-- [Github](https://github.com/chengzhanhong)
-
-
+<hr>
 
 # News
 - 2020-11-08. Create the website.
 
 Found more in [archived news](_posts/2020-11-08-archived-news.md) 
 
+<hr>
+
 # Selected publications
 - Cheng, Z., Trépanier, M., & Sun, L. (2020). [Probabilistic model for destination inference and travel pattern mining from smart card data](https://doi.org/10.1007/s11116-020-10120-0). Transportation, 1-19.
 - Cheng, Z., Trepanier, M., & Sun, L. (2020). [Incorporating travel behavior regularity into passenger flow forecasting](https://arxiv.org/abs/2004.00992). arXiv preprint arXiv:2004.00992.
 - Yao, J., Cheng, Z., Dai, J., Chen, A., & An, S. (2019). [Traffic assignment paradox incorporating congestion and stochastic perceived error simultaneously](https://doi.org/10.1080/23249935.2018.1474962). Transportmetrica A: Transport Science, 15(2), 307-325.
 - Yao, J., Cheng, Z., Shi, F., An, S., & Wang, J. (2018). [Evaluation of exclusive bus lanes in a tri-modal road network incorporating carpooling behavior](https://doi.org/10.1016/j.tranpol.2018.05.001). Transport Policy, 68, 130-141.
+- Making more. Hope to bring something interesting and useful.
