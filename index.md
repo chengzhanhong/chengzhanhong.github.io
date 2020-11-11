@@ -14,14 +14,12 @@ Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Depa
 
 I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en), [Github](https://github.com/chengzhanhong), [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2), or by [email](mailto:zhanhong.cheng@mail.mcgill.ca). 
 
-<hr>
 
 # News
-- 2020-11-08. Create the website.
+- 2020-11-08. Created this website.
 
 Found more in [archived news](_posts/2020-11-08-archived-news.md) 
 
-<hr>
 
 # Selected publications
 - Cheng, Z., Trépanier, M., & Sun, L. (2020). [Probabilistic model for destination inference and travel pattern mining from smart card data](https://doi.org/10.1007/s11116-020-10120-0). Transportation, 1-19.

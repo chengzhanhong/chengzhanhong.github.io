@@ -8,12 +8,11 @@ layout: default
   
   <div class="post-info">
     {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span>Created on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
     {% if page.modified %}
       <br>
-      <span>Modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
+      <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
 
