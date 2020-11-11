@@ -14,7 +14,9 @@ author:
   email:        chengzhanhong@mail.mcgill.ca
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
+kramdown:
+    math_engine: katex
 include:
   - _pages
 
