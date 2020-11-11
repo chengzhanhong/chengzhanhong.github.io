@@ -2,16 +2,28 @@
 layout: initial
 ---
 
-<figure style="float:right;padding:10">
+
+# About me
+
+<figure style="float:right;margin-top:0;margin-left:10;margin-right:0">
   <img src="assets/images/zhanhong.jpg" width="200" height="200" alt="my alt text"/>
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
-# About me
-Hello, I am Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at McGill University. I received master’s and bachelor’s degree from Harbin Institute of Technology. My current research focuses on utilizing passengers’ behavior patterns for better transit operation, planning, and forecasting. My master’s thesis is about the effect of the route choice model on traffic paradox.
+Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/). I received my master’s and bachelor’s degree in transportation from Harbin Institute of Technology (HIT).
+
+My current research focuses on improving transit ridership forecasting by passenger’s travel behavior. My research interests include spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation.
+
+Find me more in my [CV](_pages/CV.md).
+- [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en), 
+- [Github](https://github.com/chengzhanhong)
+
+
 
 # News
-Start my website.
+- 2020-11-08. Create the website.
+
+Found more in [archived news](_posts/2020-11-08-archived-news.md) 
 
 # Selected publications
 - Cheng, Z., Trépanier, M., & Sun, L. (2020). [Probabilistic model for destination inference and travel pattern mining from smart card data](https://doi.org/10.1007/s11116-020-10120-0). Transportation, 1-19.
