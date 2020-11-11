@@ -2,7 +2,6 @@
 layout: initial
 ---
 
-
 # About me
 
 <figure style="float:right;margin-top:0;margin-left:10;margin-right:0;border:thin silver solid;padding: 0.5em;">

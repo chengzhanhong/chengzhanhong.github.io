@@ -5,8 +5,9 @@ author: "Zhanhong Cheng"
 permalink: /cv/
 ---
 # CV for Zhanhong Cheng
-<figure style="float:right;margin-top:0;margin-left:10;margin-right:0">
-  <img src="../assets/images/zhanhong.jpg" width="200" height="200" alt="my alt text"/>
+
+<figure style="float:right;margin-top:0;margin-left:10;margin-right:0;border:thin silver solid;padding: 0.5em;">
+  <img src="../assets/images/zhanhong.jpg" width="200" alt="My portrait"/>
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
