@@ -20,11 +20,18 @@
     text-align: center;
   }
 
+  // &-line {
+  //   @include transition(all .3s ease-out);
+  //   border-top: .2rem solid $default-shade;
+  //   display: block;
+  //   width: 2rem;
+  // }
+
   &-line {
     border-top: 0.4rem solid $default-shade;
     display: block;
     margin: 0 auto 3rem;
-    width: 4rem;
+    width: 2rem;
   }
 
   p {
