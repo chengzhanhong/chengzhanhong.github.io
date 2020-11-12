@@ -65,7 +65,15 @@ figcaption {
   text-align: center;
 }
 
-
+figure.right{
+  float:right;
+  margin:0 0 10 10px;
+  
+  @media (max-width: 500px) {
+      float: none;
+      margin:0 0 10px;
+    }
+  }
 
 img {
   display: block;
