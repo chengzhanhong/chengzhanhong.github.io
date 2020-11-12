@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-info">
     {% if page.date %}
       <span>Created on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -11,13 +12,12 @@ layout: default
       <br>
       <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
     {% endif %}
-    <div class="tags-clouds">
+    <div class="tags-clouds"> Tags:
       {% for tag in page.tags %}
       <a href="{{ site.baseurl | append: '/tags#' | append: tag }}">{{ tag }}</a>
       {% endfor %}
     </div>
   </div>
-  <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
   
   {{ content }}
