@@ -6,16 +6,16 @@ permalink: /cv/
 ---
 # CV for Zhanhong Cheng
 
-<figure style="float:right;margin-top:0;margin-left:10;margin-right:0;">
+<figure class="right">
   <img src="..//assets/images/zhanhong.jpg" width="200" alt="My portrait"/>
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
-- A comprehensive [CV](../assets/files/CV.pdf) in pdf.
-- Email: [zhanhong.cheng@mail.mcgill.ca](mailto:zhanhong.cheng@mail.mcgill.ca)
-- Github: [https://github.com/chengzhanhong](https://github.com/chengzhanhong)
-- [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en)
-- [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2)
+- A comprehensive [CV](../assets/files/CV.pdf){:target="_blank"} in pdf.
+- Email: [zhanhong.cheng@mail.mcgill.ca](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}
+- Github: [https://github.com/chengzhanhong](https://github.com/chengzhanhong){:target="_blank"}
+- [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}
+- [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}
 
 ## Education
 - 2019.01-current, Ph.D. student at McGill University.

@@ -12,7 +12,7 @@ title: "Home"
 
 Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/). My current research focuses on improving transit ridership forecasting by passenger’s travel behavior. I received my master’s and bachelor’s degree in transportation from Harbin Institute of Technology. My research there was route choice models and traffic paradox.
 
-I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca). 
+I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}. 
 
 
 # News

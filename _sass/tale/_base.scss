@@ -65,15 +65,25 @@ figcaption {
   text-align: center;
 }
 
+
 figure.right{
-  float:right;
-  margin:0 0 10 10px;
-  
+  /* Float to the right on screens that are equal to or less than 500px wide */
   @media (max-width: 500px) {
+    .float-right-sm {
       float: none;
       margin:0 0 10px;
     }
   }
+
+  /* Float to the right on screens that are equal to or greater than 501px wide */
+  @media (min-width: 501px) {
+    .float-right-lg {
+      float: right;
+      margin:0 0 10 10px;
+    }
+  }
+  }
+
 
 img {
   display: block;
