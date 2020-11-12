@@ -68,14 +68,20 @@ figcaption {
 
 figure.right{
   float: right;
-  margin:0 0 10 10px;
+  margin-top: 0;
+  margin-right:0;
+  margin-left: 10;
+  margin-bottom: 10;
   }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   figure.right {
     float: none;
-    margin:0 0 10px;
+    margin-top: 0;
+    margin-right:0;
+    margin-left: 0;
+    margin-bottom: 10;
     }
 }
 
