@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Errata for probabilistic model for destination inference and travel pattern mining from smart card data"
+title:  "Errata for “probabilistic model for destination inference and travel pattern mining from smart card data”"
 comments: false
 tags: Publication
 ---
