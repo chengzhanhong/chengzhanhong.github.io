@@ -13,7 +13,7 @@ layout: default
       <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
     {% endif %}
     <div class="tags-clouds">
-      <span>Tags:&nbsp;</span>
+      <span style="font-family: serif-secondary"></span>Tags:&nbsp;</span>
       {% for tag in page.tags %}
       <a href="{{ site.baseurl | append: '/tags#' | append: tag }}">{{ tag }}</a>
       {% endfor %}
