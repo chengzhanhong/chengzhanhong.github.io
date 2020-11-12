@@ -67,19 +67,17 @@ figcaption {
 
 
 figure.right{
-  /* Float to the right on screens that are equal to or less than 500px wide */
-  @media (max-width: 500px) {
-      float: none;
-      margin:0 0 10px;
-    }
-
-  /* Float to the right on screens that are equal to or greater than 501px wide */
-  @media (min-width: 501px) {
-      float: right;
-      margin:0 0 10 10px;
-    }
+  float: right;
+  margin:0 0 10 10px;
   }
 
+
+@media all and (max-width: 500px) {
+  figure.right {
+    float: none;
+    margin:0 0 10px;
+    }
+}
 
 img {
   display: block;
