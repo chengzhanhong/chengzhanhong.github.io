@@ -16,6 +16,7 @@ I am interested in spatiotemporal data forecasting, travel behavior pattern mini
 
 
 # News
+- 2020-12-15. I received [CIRRELT](https://www.cirrelt.ca/) Excellence Scholarships (Doctoral Rédaction).
 - 2020-11-08. Created this website.
 
 Found more in [archived news](_posts/2020-11-08-archived-news.md) 
