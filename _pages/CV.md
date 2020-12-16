@@ -11,7 +11,7 @@ permalink: /cv/
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
-- A comprehensive [CV](../assets/files/CV.pdf){:target="_blank"} in pdf.
+- A comprehensive [CV](../assets/files/ZhanhongCV.pdf){:target="_blank"} in pdf.
 - Email: [zhanhong.cheng@mail.mcgill.ca](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}
 - Github: [https://github.com/chengzhanhong](https://github.com/chengzhanhong){:target="_blank"}
 - [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}
