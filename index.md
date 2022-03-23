@@ -16,7 +16,8 @@ I am interested in spatiotemporal data forecasting, travel behavior pattern mini
 
 
 # News
-- 2020-04-21. I presented the 1st edition of Zooming in on Collaborative Digital Intelligence [video recording](https://youtu.be/xLuYrb_mmdM).
+- 2022-01-08. Paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" accepted by Transportation Science.
+- 2021-04-21. I presented the 1st edition of Zooming in on Collaborative Digital Intelligence [video recording](https://youtu.be/xLuYrb_mmdM).
 - 2020-12-15. I received [CIRRELT](https://www.cirrelt.ca/) Excellence Scholarship (Doctoral Rédaction).
 - 2020-11-08. Created this website.
 
@@ -24,6 +25,7 @@ Found more in [archived news](_posts/2020-11-08-archived-news.md)
 
 
 # Selected publications
+- Cheng, Z., Trepanier, M., & Sun, L. (2022). [Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128). Transportation Science.
 - Cheng, Z., Trépanier, M., & Sun, L. (2021). [Incorporating travel behavior regularity into passenger flow forecasting](https://doi.org/10.1016/j.trc.2021.103200). Transportation Research Part C: Emerging Technologies, 128, 103200.
 - Wang, X., Cheng, Z., Trépanier, M., & Sun, L. (2021). [Modeling bike-sharing demand using a regression model with spatially varying coefficients](https://doi.org/10.1016/j.jtrangeo.2021.103059). Journal of Transport Geography, 93, 103059.
 - Cheng, Z., Trépanier, M., & Sun, L. (2020). [Probabilistic model for destination inference and travel pattern mining from smart card data](https://doi.org/10.1007/s11116-020-10120-0). Transportation, 1-19.
