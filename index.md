@@ -12,16 +12,18 @@ title: "Home"
 
 Hello, my name is Zhanhong Cheng (程展鸿). I am a Ph.D. candidate in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/). My current research focuses on improving transit ridership forecasting by passenger’s travel behavior. I received my master’s and bachelor’s degree in transportation from Harbin Institute of Technology. My research there was route choice models and traffic paradox.
 
-I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}. 
+I am interested in spatiotemporal data forecasting, travel behavior pattern mining, and data-driven applications in transportation. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}.
 
 
 # News
+
+- 2022-04-25. I passed my Ph.D. oral defense.
 - 2022-01-08. Paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" accepted by Transportation Science.
 - 2021-04-21. I presented the 1st edition of Zooming in on Collaborative Digital Intelligence [video recording](https://youtu.be/xLuYrb_mmdM).
 - 2020-12-15. I received [CIRRELT](https://www.cirrelt.ca/) Excellence Scholarship (Doctoral Rédaction).
 - 2020-11-08. Created this website.
 
-Found more in [archived news](_posts/2020-11-08-archived-news.md) 
+Found more in [archived news](_posts/2020-11-08-archived-news.md)
 
 
 # Selected publications
