@@ -15,8 +15,8 @@ author:
 
 # Build settings
 markdown: kramdown
-kramdown:
-    math_engine: katex
+# kramdown:
+#     math_engine: katex
 include:
   - _pages
 
@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  - jemoji #Uncomment this to allow emoji in your post
+  - jemoji
 
 # Permalinks
 paginate:       5
