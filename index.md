@@ -10,13 +10,14 @@ title: "Home"
   <figcaption>A photo of me taken <a href="https://goo.gl/maps/55mTwwm9Pfy7hUMZ6" target="_blank">here</a></figcaption>
 </figure>
 
-Welcome to my site! My name is Zhanhong Cheng (程展鸿). I am a postdoctoral researcher in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/).
-My research focuses on data-driven approaches to understand the interplay between emerging transportation modes and human mobility, developing intelligent solutions for more efficient, sustainable, and equable transportation systems. I am specialized in spatiotemporal forecasting, travel pattern mining, machine learning, statistical modeling, deep learning, optimization, and transportation network analysis. Find more about me on [CV](_pages/CV.md), [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}.
+My name is Zhanhong Cheng (程展鸿). I am a postdoctoral researcher in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/).
+My research focuses on data-driven approaches to understand the interplay between emerging transportation modes and human mobility, developing intelligent solutions for more efficient, sustainable, and equable transportation systems. I am specialized in spatiotemporal forecasting, travel pattern mining, machine learning, statistical modeling, deep learning, optimization, and transportation network analysis. Find more about me on [CV](../assets/files/ZhanhongCV.pdf){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}.
 
+--------------
 
 ## News
 
-- 2022-11-09. Our paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" was awarded the 2nd best paper award at [CASPT](http://www.caspt.org/) and TransitData 2022.
+- 2022-11-09. Our paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" was awarded the 2nd best paper award at [CASPT](http://www.caspt.org/) and TransitData 2022 🏅.
 - 2022-08-15. I joined as a postdoctoral researcher in Smart Transportation Lab at McGill University.
 - 2022-04-25. I passed my Ph.D. oral defense.
 - 2022-01-08. Paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" accepted by Transportation Science.
