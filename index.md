@@ -16,7 +16,8 @@ My research focuses on data-driven approaches to understand the interplay betwee
 --------------
 
 ## News
-
+- 2023-03-14. Our paper "[A large-scale empirical study on impacting factors of taxi charging station utilization](https://doi.org/10.1016/j.trd.2023.103687)" was accepted by Transportation Research Part D: Transport and Environment.
+- 2023-03-04. New preprint "[Traffic State Estimation with Anisotropic Gaussian Processes from Vehicle Trajectories](https://arxiv.org/abs/2303.02311)" was available on arXiv. A small but very interesting work.
 - 2022-11-09. Our paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" was awarded the 2nd best paper award at [CASPT](http://www.caspt.org/) and TransitData 2022 🏅.
 - 2022-08-15. I joined as a postdoctoral researcher in Smart Transportation Lab at McGill University.
 - 2022-04-25. I passed my Ph.D. oral defense.

@@ -7,7 +7,8 @@ permalink: /publications/
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
 
-
+- Cai, H., Wu, F., **Cheng, Z.**, Li, B., Wang, J. (2023). A large-scale empirical study on impacting factors of taxi charging station utilization. Transportation Research Part D: Transport and Environment, 118, 103687.
+  [[Full-text]](https://www.researchgate.net/publication/369230453_A_Large-scale_Empirical_Study_on_Impacting_Factors_of_Taxi_Charging_Station_Utilization) [[Poster]](/assets/files/TRBAM-23-03249_Haiming%20CAI_Poster.pdf)
 - **Cheng, Z.**, Yao, J., Chen, A., & An, S. (2022). Analysis of a multiplicative hybrid route choice model in stochastic assignment paradox. Transportmetrica A: Transport Science, 18(3), 1544-1568. [[Full-text]](https://www.researchgate.net/publication/353104528_Analysis_of_a_Multiplicative_Hybrid_Route_Choice_Model_in_Stochastic_Assignment_Paradox)
 
 - Zhu, K., **Cheng, Z.**, Wu, J., Yuan, F., & Sun, L. (2022). Quantifying out-of-station waiting time in oversaturated urban metro systems. Communications in Transportation Research, 2, 100052.
