@@ -5,6 +5,7 @@ comments: false
 tags: Archive
 modified: 2022-Nov-13
 ---
+- 2023-09. Our paper "[Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model](https://arxiv.org/abs/2206.06915)" was accepted by Transportation Science.
 - 2023-03-14. Our paper "[A large-scale empirical study on impacting factors of taxi charging station utilization](https://doi.org/10.1016/j.trd.2023.103687)" was accepted by Transportation Research Part D: Transport and Environment.
 - 2023-03-04. New preprint "[Traffic State Estimation with Anisotropic Gaussian Processes from Vehicle Trajectories](https://arxiv.org/abs/2303.02311)" was available on arXiv. A small but very interesting work.
 - 2022-11-09. Our paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" was awarded the 2nd best paper award at [CASPT](http://www.caspt.org/) and TransitData 2022 🏅.
