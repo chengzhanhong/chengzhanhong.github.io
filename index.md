@@ -11,7 +11,7 @@ title: "Home"
 </figure>
 
 My name is Zhanhong Cheng (程展鸿). I am a postdoctoral researcher in the Department of Civil Engineering at [McGill University](https://www.mcgill.ca/).
-My research focuses on data-driven approaches to understand the interplay between emerging transportation modes and human mobility, developing intelligent solutions for more efficient and sustainable transportation systems. I am specialized in spatiotemporal forecasting, travel pattern mining, machine learning, statistical modeling, deep learning, optimization, and transportation network analysis. Find more about me on [CV](../assets/files/ZhanhongCV.pdf){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}.
+My research focuses on developing data-driven and knowledge-driven solutions for intelligent, sustainable, and accessible transportation. Drawing on techniques such as machine learning, statistical modeling, optimization, and transportation network analysis, I develop applications and discover knowledge from massive multi-modal transportation data. Find more about me on [CV](../assets/files/ZhanhongCV.pdf){:target="_blank"}, [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"}, [Github](https://github.com/chengzhanhong){:target="_blank"}, [ResearchGate](https://www.researchgate.net/profile/Zhanhong_Cheng2){:target="_blank"}, or by [email](mailto:zhanhong.cheng@mail.mcgill.ca){:target="_blank"}.
 
 --------------
 
