@@ -7,7 +7,7 @@ permalink: /publications/
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
 
-- Chen, X., **Cheng, Z.**, Jin, J. G., Trépanier, M., & Sun, L. (2023). Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model. Transportation Science, 57(6), 1516-1535. [[Full-text]](https://arxiv.org/abs/2206.06915)
+- Chen, X., **Cheng, Z.**, Jin, J. G., Trépanier, M., & Sun, L. (2023). Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model. Transportation Science, 57(6), 1516-1535. [[Full-text]](https://arxiv.org/abs/2206.06915) [[Slides]](assets\files\BayesianGMM_caspt.pdf)
 
 - Cai, H., Wu, F., **Cheng, Z.**, Li, B., Wang, J. (2023). A large-scale empirical study on impacting factors of taxi charging station utilization. Transportation Research Part D: Transport and Environment, 118, 103687.
   [[Full-text]](https://www.researchgate.net/publication/369230453_A_Large-scale_Empirical_Study_on_Impacting_Factors_of_Taxi_Charging_Station_Utilization) [[Poster]](/assets/files/TRBAM-23-03249_Haiming%20CAI_Poster.pdf)

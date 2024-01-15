@@ -16,7 +16,7 @@ My research focuses on developing data-driven and knowledge-driven solutions for
 --------------
 
 ## News
-
+- 2024-01-10. I attended the 103rd Transportation Research Board Annual Meeting (TRB2024) in Washington D.C., USA. My collaborators and I presented our work in three poster/presentation sessions.
 - 2023-10-27. I presented "[The Regularity, Predictability, and Travel Behavior in Urban Transit Mobility](https://www.linkedin.com/posts/ut-ite_join-us-on-friday-for-our-weekly-seminar-activity-7122355073422163968-mfNQ/)" in the ITE Student Chapter at the University of Toronto. [[Slides]](assets\files\UT-ite-urban-transit-mobility.pdf)
 - 2023-09. Our paper "[Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model](https://arxiv.org/abs/2206.06915)" was accepted by Transportation Science.
 - 2023-03-14. Our paper "[A large-scale empirical study on impacting factors of taxi charging station utilization](https://doi.org/10.1016/j.trd.2023.103687)" was accepted by Transportation Research Part D: Transport and Environment.
