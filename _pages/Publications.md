@@ -6,7 +6,7 @@ permalink: /publications/
 ---
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
-- Wu, F., **Cheng, Z.**, Chen, H., Qiu, T. Z., & Sun, L. (2024). Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes. Transportation Research Part C: Emerging Technologies, 137, 103687. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X24001670) [[Poster]](assets\files\TRBAM-24_TSE_Poster.pdf) [[Code]](https://github.com/Lucky-Fan/GP_TSE)
+- Wu, F., **Cheng, Z.**, Chen, H., Qiu, T. Z., & Sun, L. (2024). Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes. Transportation Research Part C: Emerging Technologies, 137, 103687. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X24001670) [[Poster]](/assets/files/TRBAM-24_TSE_Poster.pdf) [[Code]](https://github.com/Lucky-Fan/GP_TSE)
 - Chen, X., **Cheng, Z.**, Jin, J. G., Trépanier, M., & Sun, L. (2023). Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model. Transportation Science, 57(6), 1516-1535. [[Full-text]](https://arxiv.org/abs/2206.06915) [[Slides]](assets\files\BayesianGMM_caspt.pdf)
 
 - Cai, H., Wu, F., **Cheng, Z.**, Li, B., Wang, J. (2023). A large-scale empirical study on impacting factors of taxi charging station utilization. Transportation Research Part D: Transport and Environment, 118, 103687.
