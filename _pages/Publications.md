@@ -6,7 +6,7 @@ permalink: /publications/
 ---
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
-- Chen, X., **Cheng, Z.**, Cai, H., Saunier, N., & Sun, L. (2024). Laplacian convolutional representation for traffic time series imputation. IEEE Transactions on Knowledge and Data Engineering. [[Full-text]](https://arxiv.org/abs/2212.01529) [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/tsim)
+- Chen, X., **Cheng, Z.**, Cai, H., Saunier, N., & Sun, L. (2024). Laplacian convolutional representation for traffic time series imputation. IEEE Transactions on Knowledge and Data Engineering. [[Full-text]](https://arxiv.org/abs/2212.01529) [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)
 
 - Wu, F., **Cheng, Z.**, Chen, H., Qiu, T. Z., & Sun, L. (2024). Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes. Transportation Research Part C: Emerging Technologies, 137, 103687. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X24001670) [[Poster]](/assets/files/TRBAM-24_TSE_Poster.pdf) [[Code]](https://github.com/Lucky-Fan/GP_TSE)
 
