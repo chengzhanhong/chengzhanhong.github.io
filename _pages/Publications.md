@@ -27,7 +27,7 @@ See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&h
   [[Full-text]](https://doi.org/10.1109/OJITS.2022.3220926) [[Code]](https://github.com/chengzhanhong/gaussian_process_calibration) [[Poster]](/assets/files/TRB_poster_GP_FD.pdf)
 
 - **Cheng, Z.**, Trepanier, M., & Sun, L. (2022). Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition. Transportation science, 56(4), 904-918.
-  [[Preprint]](https://arxiv.org/abs/2101.00466) [[Code]](https://github.com/mcgill-smart-transport/high-order-weighted-DMD) [[Slides]](https://easychair.org/smart-slide/slide/hws4n#) **(2nd best paper at [CASPT](http://www.caspt.org/) and TransitData 2022🏅)**
+  [[Full-text]](https://arxiv.org/abs/2101.00466) [[Code]](https://github.com/mcgill-smart-transport/high-order-weighted-DMD) [[Slides]](https://easychair.org/smart-slide/slide/hws4n#) **(2nd best paper at [CASPT](http://www.caspt.org/) and TransitData 2022🏅)**
 
 - Wu, F., Chen, H., Hou, K., **Cheng, Z.**, & Qiu, T. Z. (2022). Adaptive pushbutton control for signalized pedestrian midblock crossings. Journal of transportation engineering, Part A: Systems, 148(4), 04022011. [[Full-text]](https://www.researchgate.net/publication/358353429_Adaptive_Pushbutton_Control_for_Signalized_Pedestrian_Midblock_Crossings)
 
