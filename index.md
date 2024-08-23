@@ -12,7 +12,7 @@ title: "Home"
 
 Postdoctoral Associate at [Urban AI Lab](http://urbanailab.com//){:target="_blank"}, University of Florida, USA
 
-Ph.D. (2022) in Civil Engineering, McGill University, Canada
+Ph.D. (2022) in Civil Engineering, Postdoctoral Researcher, McGill University, Canada
 
 M.S. (2018) in Transportation Engineering, Harbin Institute of Technology, China
 

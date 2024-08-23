@@ -27,7 +27,7 @@ tags: Archive
 
 <figure class="right">
   <img src="/assets/images/zhanhong.cheng-20.jpg" width="200" alt="My portrait 2020"/>
-  <figcaption>A photo of me taken in 2020</figcaption>
+  <figcaption>A photo of me taken in 2020.</figcaption>
 </figure>
 
 - 2022-01-08. Paper "[Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition](https://doi.org/10.1287/trsc.2022.1128)" accepted by Transportation Science.
