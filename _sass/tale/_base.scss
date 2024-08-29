@@ -88,7 +88,7 @@ figure.left {
   filter: invert(20%) sepia(2%) saturate(6%) hue-rotate(337deg) brightness(96%) contrast(94%);
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
   figure.right {
     float: none;
     margin-top: 0;
@@ -96,6 +96,13 @@ figure.left {
     margin-left: 0;
     margin-bottom: 10;
     }
+  figure.left {
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 }
 
 img {
