@@ -83,9 +83,14 @@ figure.left {
 }
 
 .icon {
+  transition: transform 0.2s ease;
   width: 30px;
   height: 30px;
   filter: invert(20%) sepia(2%) saturate(6%) hue-rotate(337deg) brightness(96%) contrast(94%);
+}
+.icon:hover {
+  // filter: invert(50%) sepia(2%) saturate(6%) hue-rotate(337deg) brightness(96%) contrast(94%);
+  transform: scale(1.2);
 }
 
 @media all and (max-width: 800px) {

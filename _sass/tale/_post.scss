@@ -31,7 +31,9 @@
 
   p {
     margin: 0 0 1rem;
-    text-align: justify;
+    // text-align: justify;
+    word-wrap: break-word;
+    white-space: normal;
   }
 
   a:hover {
