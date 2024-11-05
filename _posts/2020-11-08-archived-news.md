@@ -5,6 +5,7 @@ comments: false
 tags: Archive
 # modified: 2022-Nov-13
 ---
+- Nov 2024: I am glad to give a talk on "Travel Behavior for Urban Mobility Prediction" to members of [SERMOS Lab](https://faculty.eng.ufl.edu/sermos-lab/) and [JGT Lab](https://jacobyan0.github.io/)! Thanks for the invitation from Dr. [Xiang (Jacob) Yan](https://www.essie.ufl.edu/people/name/xiang-yan/) and Dr. [Xilei Zhao](https://www.essie.ufl.edu/people/name/xilei-zhao/).
 - August 2024: our paper "Predicting metro incident duration using structured data and unstructured text logs" (authors: Yangyang Zhao, Zhenliang Ma, Hui Peng, and **Zhanhong Cheng***) was accepted by Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/QAP27QXBCA9AZAPHSAUI/full?target=10.1080/23249935.2024.2396951)
 - August 2024. I began my role as a Postdoctoral Associate at the [Urban AI Lab](http://urbanailab.com//){:target="_blank"}, [University of Florida](https://www.ufl.edu/){:target="_blank"}.
 - August 2024. Updated my photo.

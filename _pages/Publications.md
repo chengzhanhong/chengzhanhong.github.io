@@ -6,6 +6,8 @@ permalink: /publications/
 ---
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
+- Chen, X., **Cheng, Z.**, & Sun, L. (2024). Bayesian inference for link travel time correlation of a bus route. Transportmetrica B: Transport Dynamics, 12(1), 2416181. [[Full-text]](https://arxiv.org/pdf/2202.09485)
+
 - Zhao, Y., Ma, Z., Peng, H., & **Cheng, Z.\*** (2024). Predicting metro incident duration using structured data and unstructured text logs. Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/QAP27QXBCA9AZAPHSAUI/full?target=10.1080/23249935.2024.2396951)
 
 - Chen, X., **Cheng, Z.**, Cai, H., Saunier, N.*, & Sun, L. (2024). Laplacian convolutional representation for traffic time series imputation. IEEE Transactions on Knowledge and Data Engineering. [[Full-text]](https://arxiv.org/abs/2212.01529) [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)

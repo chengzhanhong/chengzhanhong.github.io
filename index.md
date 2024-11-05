@@ -43,13 +43,13 @@ My research focuses on data-driven innovations across three interrelated areas: 
 
 -------------
 ## News
+- Nov 2024: I am glad to give a talk on "Travel Behavior for Urban Mobility Prediction" to members of [SERMOS Lab](https://faculty.eng.ufl.edu/sermos-lab/) and [JGT Lab](https://jacobyan0.github.io/)! Thanks for the invitation from Dr. [Xiang (Jacob) Yan](https://www.essie.ufl.edu/people/name/xiang-yan/) and Dr. [Xilei Zhao](https://www.essie.ufl.edu/people/name/xilei-zhao/).
 - August 2024: our paper "Predicting metro incident duration using structured data and unstructured text logs" (authors: Yangyang Zhao, Zhenliang Ma, Hui Peng, and **Zhanhong Cheng***) was accepted by Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/QAP27QXBCA9AZAPHSAUI/full?target=10.1080/23249935.2024.2396951)
 - August 2024: I began my role as a Postdoctoral Associate at the [Urban AI Lab](http://urbanailab.com//){:target="_blank"}, [University of Florida](https://www.ufl.edu/){:target="_blank"}.
 - July, 2024: I presented "Anomalies in metro passenger demand are predictable -- learning causality with ABTransformer" at [TransitData 2024](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/transit-data-2024-9th-international-workshop-and-symposium-research-and-applications-use), London. [[Slides]](assets\files\TransitData-24_ABTransformer.pdf) [[Preprint]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4915558) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
 - June, 2024: Our paper "[Laplacian convolutional representation for traffic time series imputation](https://doi.org/10.1109/TKDE.2024.3419698)" (authors: [Xinyu Chen](https://xinychen.github.io/), **Zhanhong Cheng**, HanQin Cai, Nicolas Saunier, Lijun Sun) was accepted by IEEE Transactions on Knowledge and Data Engineering. [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)
 - May, 2024: Our paper "[Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0968090X24001670)" was accepted by Transportation Research Part C: Emerging Technologies!
 - 2024-01-10. I attended the 103rd Transportation Research Board Annual Meeting (TRB2024) in Washington D.C., USA. My collaborators and I presented our work in three poster/presentation sessions.
-- 2023-10-27. I presented "[The Regularity, Predictability, and Travel Behavior in Urban Transit Mobility](https://www.linkedin.com/posts/ut-ite_join-us-on-friday-for-our-weekly-seminar-activity-7122355073422163968-mfNQ/)" in the ITE Student Chapter at the University of Toronto. [[Slides]](assets\files\UT-ite-urban-transit-mobility.pdf)
 
 Found more in [archived news](_posts/2020-11-08-archived-news.md)
 
