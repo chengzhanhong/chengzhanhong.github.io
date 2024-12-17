@@ -10,7 +10,7 @@ title: "Home"
 
 # Zhanhong Cheng
 
-Postdoctoral Associate at [Urban AI Lab](http://urbanailab.com//){:target="_blank"}, University of Florida, USA
+Postdoctoral Associate at [Urban AI Lab](http://urbanailab.com){:target="_blank"}, University of Florida, USA
 
 Ph.D. (2022) in Civil Engineering, Postdoc, McGill University, Canada
 
@@ -46,7 +46,7 @@ My research focuses on data-driven innovations across three interrelated areas: 
 - Dec 2024: I am glad to give a report on "Modeling Residential Location Choice with Graph Neural Networks" at [MIT Urban Mobility Lab](https://mobility.mit.edu/). [[Slides]](assets/files/MIT_SRB2024.pdf)
 - Nov 2024: I am glad to give a talk on "Travel Behavior for Urban Mobility Prediction" to members of [SERMOS Lab](https://faculty.eng.ufl.edu/sermos-lab/) and [JGT Lab](https://jacobyan0.github.io/)! Thanks for the invitation from Dr. [Xiang (Jacob) Yan](https://www.essie.ufl.edu/people/name/xiang-yan/) and Dr. [Xilei Zhao](https://www.essie.ufl.edu/people/name/xilei-zhao/).
 - August 2024: our paper "Predicting metro incident duration using structured data and unstructured text logs" (authors: Yangyang Zhao, Zhenliang Ma, Hui Peng, and **Zhanhong Cheng***) was accepted by Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/QAP27QXBCA9AZAPHSAUI/full?target=10.1080/23249935.2024.2396951)
-- August 2024: I began my role as a Postdoctoral Associate at the [Urban AI Lab](http://urbanailab.com//){:target="_blank"}, [University of Florida](https://www.ufl.edu/){:target="_blank"}.
+- August 2024: I began my role as a Postdoctoral Associate at the [Urban AI Lab](http://urbanailab.com){:target="_blank"}, [University of Florida](https://www.ufl.edu/){:target="_blank"}.
 - July, 2024: I presented "Anomalies in metro passenger demand are predictable -- learning causality with ABTransformer" at [TransitData 2024](https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/research/transit-data-2024-9th-international-workshop-and-symposium-research-and-applications-use), London. [[Slides]](assets\files\TransitData-24_ABTransformer.pdf) [[Preprint]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4915558) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
 - June, 2024: Our paper "[Laplacian convolutional representation for traffic time series imputation](https://doi.org/10.1109/TKDE.2024.3419698)" (authors: [Xinyu Chen](https://xinychen.github.io/), **Zhanhong Cheng**, HanQin Cai, Nicolas Saunier, Lijun Sun) was accepted by IEEE Transactions on Knowledge and Data Engineering. [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)
 - May, 2024: Our paper "[Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes](https://www.sciencedirect.com/science/article/pii/S0968090X24001670)" was accepted by Transportation Research Part C: Emerging Technologies!
