@@ -6,6 +6,8 @@ permalink: /publications/
 ---
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
+- Chen, X., **Cheng, Z.**, Schmidt, A. M., & Sun, L. (2025). Conditional forecasting of bus travel time and passenger occupancy with Bayesian Markov regime-switching vector autoregression. Transportation Research Part B: Methodological, 192, 103147. [[Full-text]](https://arxiv.org/abs/2401.17387)
+
 - Chen, X., **Cheng, Z.**, & Sun, L. (2024). Bayesian inference for link travel time correlation of a bus route. Transportmetrica B: Transport Dynamics, 12(1), 2416181. [[Full-text]](https://arxiv.org/pdf/2202.09485)
 
 - Zhao, Y., Ma, Z., Peng, H., & **Cheng, Z.\*** (2024). Predicting metro incident duration using structured data and unstructured text logs. Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/QAP27QXBCA9AZAPHSAUI/full?target=10.1080/23249935.2024.2396951)
