@@ -10,17 +10,20 @@ permalink: /service/
 
 # Reviewer
 ## Journal reviewer
+- Transportation Research Part A: Policy and Practice
+- Transportation Research Part B: Methodological
 - Transportation Research Part C: Emerging Technologies
 - Transportation Science
 - IEEE Transactions on Intelligent Transportation Systems
 - INFORMS Journal on Computing
-- Multimodal Transportation
-- Urban Studies
-- Public Transport
 - Transport Policy
+- Urban Studies
+- Journal of Planning Education and Research
+- Public Transport
 - Transportation Research Record
 - Journal of Advanced Transportation
 - Sustainability
+- International Journal of Intelligent Systems
 
 ## Conference reviewer
 - Transportation Research Board (TRB) Annual Meeting
