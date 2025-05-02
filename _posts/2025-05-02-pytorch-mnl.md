@@ -10,9 +10,9 @@ views: true
 ---
 
 ## Why not use an existing packages?
-In my recent work of using Graph Neural Networks (GNN) in DCM, the idea of implementing Multinomial Logit (MNL) model in PyTorch with the functionality of significance testing raises in my mind from time to time. Although there has been a many mature packages for MNL, including the excellent [Biogeme](https://biogeme.epfl.ch/), [Apollo](https://www.apollochoicemodelling.com/), [PyLogit](https://github.com/timothyb0912/pylogit), and [Choice-Learn](https://github.com/artefactory/choice-learn), a minimalistic implementation of MNL in PyTorch is still useful for **educational purposes** and for those who want to **keep a consistent data structure and workflow in PyTorch**. In addition, I found doing it from scratch is not much more difficult than adapting to a new packages, because PyTorch has resolved the most difficult part of automatic differentiation.
+In my recent work on using graph neural networks (GNN) in DCM, the idea of implementing the multinomial logit (MNL) model in PyTorch with the functionality of significance testing has arisen from time to time. Although there have been many mature packages for MNL, including the excellent [Biogeme](https://biogeme.epfl.ch/), [Apollo](https://www.apollochoicemodelling.com/), [PyLogit](https://github.com/timothyb0912/pylogit), and [Choice-Learn](https://github.com/artefactory/choice-learn), a minimalistic implementation of MNL in PyTorch is still useful for educational purposes and for those who want to keep a consistent data structure and workflow in PyTorch. In addition, I found that doing it from scratch is not much more difficult than adapting to a new package, because PyTorch has resolved the most difficult part of automatic differentiation.
 
-In this post, I will use PyTorch to replicate the [Swissmetro example](https://biogeme.epfl.ch/sphinx/auto_examples/swissmetro/plot_b01logit.html#sphx-glr-auto-examples-swissmetro-plot-b01logit-py) in Biogeme[^1]. Next, is some theory and code for significance testing of coefficients. Lastly, I will provide an plug-and-go module for significance test in MNL and other regression models estimated by maximum likelihood estimation (MLE).
+In this post, I will use PyTorch to replicate the [Swissmetro example](https://biogeme.epfl.ch/sphinx/auto_examples/swissmetro/plot_b01logit.html#sphx-glr-auto-examples-swissmetro-plot-b01logit-py) in Biogeme[^1]. Next, some theory and code for the significance testing of coefficients. Lastly, I will provide a plug-and-play module for significance tests in MNL and other regression models estimated by maximum likelihood estimation (MLE).
 
 ## Load Swissmetro dataset
 Load the [Swissmetro dataset](https://transp-or.epfl.ch/pythonbiogeme/examples/swissmetro/swissmetro.pdf), where the participants were asked to choose between Swissmetro, train, and car.
@@ -39,7 +39,7 @@ df.loc[df.GA == 1, "TRAIN_CO"] = 0
 df[["TRAIN_TT", "TRAIN_CO", "SM_TT", "SM_CO", "CAR_TT", "CAR_CO"]] /= 100
 ```
 
-Transform the input features and choice results into PyTorch tensors. Unlike the many machine learning models that use mini-batch training, the correct significance test require zero gradient at the solution point and thus the full dataset is used to estimate the model parameters. In PyTorch, this is done by using the entire dataset at once.
+Transform the input features and choice results into PyTorch tensors. Unlike the many machine learning models that use mini-batch training, the correct significance test requires zero gradient at the solution point, thus, the full dataset is used to estimate the model parameters. In PyTorch, this is done by using the entire dataset at once.
 
 
 ```python
@@ -66,7 +66,7 @@ P_i &= \frac{e^{V_i}}{\sum_{j=1}^{3}e^{V_j}} \\
 \end{align*}
 $$
 
-The same $\beta_1$ and $\beta_2$ are used for all alternatives. The alternative specific constants (ASC) for TRAIN and SM are included in the model, but not for CAR (for model identification purpose).
+The same $\beta_1$ and $\beta_2$ are used for all alternatives. The alternative specific constants (ASC) for TRAIN and SM are included in the model, but not for CAR (for model identification purposes).
 
 
 ```python
@@ -188,9 +188,9 @@ print(significance_test(params.detach().numpy(),
 
 
 ### Robust standard errors
-The above standard errors estimation is based on the assumption that the model is correctly specified and the errors are homoscedastic (constant variance). [PyLogit](https://github.com/timothyb0912/pylogit) and [Choice-Learn v1.1.0](https://github.com/artefactory/choice-learn) are based on this implementation. In practice, it is better to use **robust standard errors** to account for potential heteroscedasticity and model misspecification, as supported by [Biogeme](https://biogeme.epfl.ch/) and [Apollo](https://www.apollochoicemodelling.com/).
+The above standard error estimation is based on the assumption that the model is correctly specified and the errors are homoscedastic (constant variance). [PyLogit](https://github.com/timothyb0912/pylogit) and [Choice-Learn v1.1.0](https://github.com/artefactory/choice-learn) are based on this implementation. In practice, it is better to use **robust standard errors** to account for potential heteroscedasticity and model misspecification, as supported by [Biogeme](https://biogeme.epfl.ch/) and [Apollo](https://www.apollochoicemodelling.com/).
 
-The robust standard errors are computed use heteroscedasticity consistent (HC) covariances:
+The robust standard errors are computed using heteroscedasticity consistent (HC) covariances:
 
 $$
 \text{Cov}(\hat{\beta}) = H^{-1} B H^{-1},
