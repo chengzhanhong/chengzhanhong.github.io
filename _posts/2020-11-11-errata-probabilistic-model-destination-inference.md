@@ -4,6 +4,7 @@ title:  "Errata for “probabilistic model for destination inference and travel 
 comments: false
 tags: Publication
 use_math: true
+views: true
 ---
 
 Cheng, Z., Trépanier, M., & Sun, L. (2020). [Probabilistic model for destination inference and travel pattern mining from smart card data](https://doi.org/10.1007/s11116-020-10120-0). Transportation, 1-19.
