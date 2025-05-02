@@ -15,10 +15,18 @@ layout: default
       <time datetime="{{ page.date }}"> | {{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
 
-    {% if page.modified %}
-      <br>
-      <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
+    {% if page.views %}
+    <span id="busuanzi_container_page_pv">
+      <i class="fas fa-eye"></i>
+      | Views: <span id="busuanzi_value_page_pv"></span>
+    </span>
     {% endif %}
+
+    {% if page.modified %}
+    <br>
+    <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
+    {% endif %}
+
     <div class="tags-clouds">
       Tags:
       {% for tag in page.tags %}
@@ -27,7 +35,20 @@ layout: default
     </div>
   </div>
 
+  {% if page.toc %}
+  <div class="content-wrapper">
+    <aside class="toc">
+      <!-- <button id="toc-toggle" class="toc-toggle">☰ Hide TOC</button> -->
+      <b>☰ Table of contents</b>
+      {% include toc.html sanitize=true html=content h_min=2 h_max=3 %}
+    </aside>
+    <div class="main-content">
+      {{ content }}
+    </div>
+  </div>
+  {% else %}
   {{ content }}
+  {% endif %}
 
 </div>
 
@@ -45,3 +66,20 @@ layout: default
 
   <a href="#" class="top">Top</a>
 </div>
+
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toc = document.querySelector('.toc');
+    const toggleBtn = document.getElementById('toc-toggle');
+
+    toggleBtn.addEventListener('click', function () {
+      if (toc.classList.contains('hidden')) {
+        toc.classList.remove('hidden');
+        toggleBtn.textContent = '☰ Hide TOC';
+      } else {
+        toc.classList.add('hidden');
+        toggleBtn.textContent = '☰ Show TOC';
+      }
+    });
+  });
+</script> -->

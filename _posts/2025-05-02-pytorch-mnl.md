@@ -4,6 +4,8 @@ title:  "Significance test of multinomial logit model coefficients in PyTorch"
 comments: true
 tags: Note
 use_math: true
+toc: true
+views: true
 # modified:
 ---
 
@@ -12,7 +14,7 @@ In my recent work of using Graph Neural Networks (GNN) in DCM, the idea of imple
 
 In this post, I will use PyTorch to replicate the [Swissmetro example](https://biogeme.epfl.ch/sphinx/auto_examples/swissmetro/plot_b01logit.html#sphx-glr-auto-examples-swissmetro-plot-b01logit-py) in Biogeme[^1]. Next, is some theory and code for significance testing of coefficients. Lastly, I will provide an plug-and-go module for significance test in MNL and other regression models estimated by maximum likelihood estimation (MLE).
 
-## The Swissmetro example
+## Load Swissmetro dataset
 Load the [Swissmetro dataset](https://transp-or.epfl.ch/pythonbiogeme/examples/swissmetro/swissmetro.pdf), where the participants were asked to choose between Swissmetro, train, and car.
 
 ```python
@@ -52,6 +54,7 @@ y = df.CHOICE.values  # Choice is 1, 2, or 3 for the three alternatives
 y = torch.tensor(y, dtype=torch.long) - 1  # In Python, index start at 0
 ```
 
+## MNL in PyTorch
 Define the following MNL model in PyTorch:
 
 $$
@@ -88,7 +91,7 @@ model = MNL(num_features=2, num_choices=3)
 
 The `F.log_softmax` is equivalent to `log(softmax(x))`, but if faster and more stable than the latter.
 
-### Model estimation
+## Model estimation
 
 The [LBFGS optimizer](https://pytorch.org/docs/stable/generated/torch.optim.LBFGS.html) is used to maximize the log-likelihood function (minimize the [nll_loss](https://pytorch.org/docs/stable/generated/torch.nn.functional.nll_loss.html)).
 
@@ -117,10 +120,11 @@ print("log-likelihood:", -F.nll_loss(model(x), y, reduction='sum').item())
     Asc: [-0.91749597  0.2504263 ]
     log-likelihood: -4382.490234375
 
+Both $\beta_1$ and $\beta_2$ are negative, meaning that longer travel time and higher cost reduce the probability of choosing the alternative, which is expected.
 
 ## Significance test
 
-#### Standard errors
+### Standard errors
 The theory of significance test in maximum likelihood estimation (MLE) can be found [here](https://discdown.org/microeconometrics/maximum-likelihood-estimation-1.html) and [Section 8.6](https://eml.berkeley.edu/books/choice2nd/Ch08_p183-204.pdf#page=18.33) of the book by Dr. Kenneth Train. I give an intuitive but not rigorous explanation. In MLE, the **Hessian matrix** (second derivative of the log-likelihood function)
 
 $$
@@ -130,7 +134,7 @@ $$
 measures how “curved” the log-likelihood surface is around the estimated parameters. A steeper curve (i.e., higher curvature) along a parameter direction indicates that the log-likelihood changes more quickly with respect to that parameter, suggesting that the parameter is more important, the estimate is more certain, and has a smaller variance for that parameter. Conversely, if the curve is flat, it suggests that there’s more uncertainty about the parameter value, meaning the variance is larger.
 
 Therefore, the significance test of the estimated parameters is based on the **Hessian matrix** at the solution point. The steps are as follows:
-1. The **inverse of the negative Hessian** is the **covariance matrix** of the estimated parameters.
+1. The **inverse of the negative Hessian**[^2] is the **covariance matrix** of the estimated parameters.
 2. The **diagonal elements** of this covariance matrix give the variances of individual coefficients.
 3. Taking the square root of these variances gives the **standard errors**.
 4. Using the standard errors, we can compute the **t-statistics** $t_i = \hat{\beta}_i/\text{SE}(\hat{\beta}_i)$ and p-value for each coefficient.
@@ -141,6 +145,7 @@ Therefore, the significance test of the estimated parameters is based on the **H
 # Therefore, we define a loss function that computes the NLL given the model parameters.
 def loss_all(params):
     param_dict = {'beta': params[:2], 'asc': params[2:]}
+    # Reconstruct the `model` with the parameters in `param_dict``, and apply it to input `x`
     log_probs = torch.func.functional_call(model, param_dict, x)
     nll = F.nll_loss(log_probs, y, reduction='sum')
     return nll
@@ -150,18 +155,36 @@ params = torch.cat([model.beta, model.asc])
 # This gives the negative of the Hessian, as we minimize the NLL
 H = torch.autograd.functional.hessian(loss_all, params)
 H_inv = torch.inverse(H)  # Invert the Hessian matrix to get the covariance matrix
-std_err = torch.sqrt(torch.diag(H_inv)).detach().numpy()
-print(f"Std error of beta: {std_err[:2]}")
-print(f"Std error of asc: {std_err[2:]}")
-print(f"t-statistic of beta: {model.beta.data.numpy() / std_err[:2]}")
-print(f"t-statistic of asc: {model.asc.data.numpy() / std_err[2:]}")
+std_err = torch.sqrt(torch.diag(H_inv)).detach().numpy()  # Standard errors of the parameters
 
+
+def significance_test(params, std_err, param_names):
+    from scipy.stats import t
+    t_values = params / std_err
+    p_values = 2 * (
+        1 - t.cdf(abs(t_values), df=len(x) - len(params))
+    )  # p-value of a t-distribution with degrees of freedom = num_samples - num_params
+
+    # organize the results in a pandas DataFrame
+    results = {
+        "params": params,
+        "std_err": std_err,
+        "t_values": t_values,
+        "p_values": p_values,
+    }
+
+    return pd.DataFrame(results, index=param_names)
+
+print(significance_test(params.detach().numpy(),
+                        std_err,
+                        ['beta_1', 'beta_2', 'asc_1', 'asc_2']))
 ```
 
-    Std error of beta: [0.060907   0.05316356]
-    Std error of asc: [0.0567066  0.04458215]
-    t-statistic of beta: [-20.895954 -21.730944]
-    t-statistic of asc: [-16.179703   5.617188]
+              params   std_err   t_values      p_values
+    beta_1 -1.272701  0.060907 -20.895693  0.000000e+00
+    beta_2 -1.155296  0.053164 -21.730906  0.000000e+00
+    asc_1  -0.917466  0.056707 -16.179033  0.000000e+00
+    asc_2   0.250493  0.044582   5.618650  2.017313e-08
 
 
 ### Robust standard errors
@@ -195,16 +218,21 @@ jacobian = torch.autograd.functional.jacobian(loss_each, params) # (batch_size, 
 B = jacobian.T @ jacobian  # (n_params, n_params)
 COV = H_inv @ B @ H_inv
 robust_std_err = torch.sqrt(torch.diag(COV)).detach().numpy()
-print(f"Robust std error of beta: {robust_std_err[:2]}")
-print(f"Robust std error of asc: {robust_std_err[2:]}")
-print(f"Robust t-statistic of beta: {model.beta.data.numpy() / robust_std_err[:2]}")
-print(f"Robust t-statistic of asc: {model.asc.data.numpy() / robust_std_err[2:]}")
-
+print(
+    significance_test(
+        params.detach().numpy(), robust_std_err, ["beta_1", "beta_2", "asc_1", "asc_2"]
+    )
+)
 ```
 
-    Robust std error of beta: [0.11708333 0.07194015]
-    Robust std error of asc: [0.06345405 0.06268084]
-    Robust t-statistic of beta: [-10.870119 -16.059105]
-    Robust t-statistic of asc: [-14.459217    3.9952607]
+              params   std_err   t_values  p_values
+    beta_1 -1.272701  0.117085 -10.869920  0.000000
+    beta_2 -1.155296  0.071941 -16.059046  0.000000
+    asc_1  -0.917466  0.063455 -14.458471  0.000000
+    asc_2   0.250493  0.062681   3.996299  0.000065
+
+## Summary
+We can see that implementing MNL in PyTorch is not difficult. The notebook of this post is available [here](https://github.com/chengzhanhong/archive_notes/blob/main/MNL_pytorch_example.ipynb), and a more general module for significance test in MNL and other regression models estimated by maximum likelihood estimation (MLE) is available on [here](https://github.com/chengzhanhong/archive_notes/blob/main/MNL_pytorch_general.py).
 
 [^1]: There are minor differences from the Biogeme example. 1. The Biogeme example has an availability condition for each alternative. For simplicity, I only use samples with car ownership; thus, everyone chooses from the three alternatives. 2. The Biogeme example adds alternative specific constants (ASC) to car and train, but here the ASC is added to train and Swissmetro.
+[^2]: The log-likelihood is concave, and a negative sign must be used to ensure the Hessian is positive definite. This negative sign is not required if we use the Hessian of the **negative log-likelihood**, as shown in our implementation.

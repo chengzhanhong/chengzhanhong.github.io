@@ -1,0 +1,66 @@
+.content-wrapper {
+    position: relative;
+}
+
+/* Main content: centered block */
+.main-content {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Sidebar (TOC): absolutely positioned to the left of main-content */
+.toc {
+    position: fixed;
+    top: 100px;
+    /* adjust as needed to sit below your header */
+    left: calc(50% - 800px / 2 - 220px);
+    /* left of the centered main-content */
+    width: 200px;
+    z-index: 1000;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;  /* viewport height minus offset */
+
+    background: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.toc li {
+    margin-bottom: 0.5rem;
+    /* optional spacing */
+}
+
+.toc ul ul {
+    padding-left: 1rem;
+}
+
+/* When no TOC, optionally reserve space to prevent layout shift */
+.toc.empty {
+    visibility: hidden;
+}
+
+// .toc.hidden {
+//     display: none;
+// }
+
+// .toc-toggle {
+//     position: fixed;
+//     top: 20px;
+//     left: 20px;
+//     z-index: 2001;
+//     background: #007acc;
+//     color: white;
+//     border: none;
+//     padding: 0.5rem 1rem;
+//     border-radius: 4px;
+//     cursor: pointer;
+//     font-size: 0.9rem;
+// }

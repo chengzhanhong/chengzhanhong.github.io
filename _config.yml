@@ -11,12 +11,20 @@ url:            "https://chengzhanhong.github.io"
 author:
   name:         Zhanhong Cheng
   url:          https://chengzhanhong.github.io
-  email:        chengzhanhong@mail.mcgill.ca
+  email:        zhanhong.cheng@ufl.edu
 
 # Build settings
 markdown: kramdown
-# kramdown:
-#     math_engine: katex
+kramdown:
+  auto_ids: true
+  toc_levels: 2..3
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+# math_engine: katex
 include:
   - _pages
 
