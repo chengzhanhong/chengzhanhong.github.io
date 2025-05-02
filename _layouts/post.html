@@ -5,21 +5,28 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-info">
-    {% if page.date %}
-      <span>Created on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% if page.author %}
+      <span>{{ page.author }}</span>
+      {% else %}
+      <span>{{ site.author.name }}</span>
     {% endif %}
+
+    {% if page.date %}
+      <time datetime="{{ page.date }}"> | {{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+
     {% if page.modified %}
       <br>
       <span>Last modified on&nbsp;</span><time datetime="{{ page.date }}">{{ page.modified | date: "%B %d, %Y" }}</time>
     {% endif %}
     <div class="tags-clouds">
-      Tags: 
+      Tags:
       {% for tag in page.tags %}
       <a href="{{ site.baseurl | append: '/tags#' | append: tag }}">{{ tag }}</a>
       {% endfor %}
     </div>
   </div>
-  
+
   {{ content }}
 
 </div>
