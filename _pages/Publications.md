@@ -6,6 +6,9 @@ permalink: /publications/
 ---
 
 See my [Google Scholar](https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en){:target="_blank"} profile for a complete and more recent list. This page aims to provide full text, code, slides, and posters of my publications.
+
+- **Cheng, Z.**, Wang, J., Trépanier, M., & Sun, L. (2025). Abnormal metro passenger demand is predictable from alighting and boarding correlation. Transportation Research Part C: Emerging Technologies, 178, 105239. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X25002438) [[Slides]](assets/files/TransitData-24_ABTransformer.pdf) [[Poster]](assets/files/Poster_2025_TRB_ABTransformer.pdf) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
+
 - Chen, X., **Cheng, Z.**, Schmidt, A. M., & Sun, L. (2025). Conditional forecasting of bus travel time and passenger occupancy with Bayesian Markov regime-switching vector autoregression. Transportation Research Part B: Methodological, 192, 103147. [[Full-text]](https://arxiv.org/abs/2401.17387)
 
 - Chen, X., **Cheng, Z.**, & Sun, L. (2024). Bayesian inference for link travel time correlation of a bus route. Transportmetrica B: Transport Dynamics, 12(1), 2416181. [[Full-text]](https://arxiv.org/pdf/2202.09485)

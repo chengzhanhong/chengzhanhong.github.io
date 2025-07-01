@@ -59,9 +59,9 @@ Define the following MNL model in PyTorch:
 
 $$
 \begin{align*}
-V_1 &= \beta_1 \text{TRAIN_TT} + \beta_2 \text{TRAIN_COST} + ASC_1 \\
-V_2 &= \beta_1 \text{SM_TT} + \beta_2 \text{SM_COST} + ASC_2 \\
-V_3 &= \beta_1 \text{CAR_TT} + \beta_2 \text{CAR_COST} \\
+V_1 &= \beta_1 \text{TRAIN_TT} + \beta_2 \text{TRAIN_CO} + ASC_1 \\
+V_2 &= \beta_1 \text{SM_TT} + \beta_2 \text{SM_CO} + ASC_2 \\
+V_3 &= \beta_1 \text{CAR_TT} + \beta_2 \text{CAR_CO} \\
 P_i &= \frac{e^{V_i}}{\sum_{j=1}^{3}e^{V_j}} \\
 \end{align*}
 $$
