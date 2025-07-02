@@ -1,6 +1,6 @@
 ---
 layout: initial
-title: "Zhanhong Cheng"
+title: "About me"
 ---
 
 <figure class="left">
