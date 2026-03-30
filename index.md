@@ -19,7 +19,7 @@ M.S. (2018) in Transportation Engineering, Harbin Institute of Technology, China
 B.Eng. (2016) in Traffic Engineering, Harbin Institute of Technology, China
 
 <div style="display: flex; align-items: center;">
-<a href="mailto:zhanhong.cheng@ufl.edu" target="_blank">
+<a href="mailto:chengzhanhong@gmail.com" target="_blank">
 <img src="assets\images\envelope-solid.svg" alt="Email" class="icon" title="Email me" style="margin-right:10px">
 </a>
 
@@ -44,11 +44,11 @@ I am interested in understanding, planning, and optimizing urban mobility system
 
 -------------
 ## News
+- March 2025: I was pleased to deliver a talk titled “[Data, Model, and Intelligence: Travel Behavior Modeling and Demand Prediction](http://iits.zju.edu.cn/2026/0312/c21474a3139727/page.htm)” at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm) (IITS), Zhejiang University.
+- Nov 2024: Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)" was accepted in [ISTTT 2026](https://www.isttt2026.vtk.ed.tum.de/)!
 - Sept 2025: paper "Railway booking demand forecasting for revenue management: a deep probabilistic approach" (authors: **Zhanhong Cheng**, Vilmar Jefté Rodrigues de Sousa, Karim Pérez Martínez, Thibault Barbier, and Lijun Sun) was accepted by Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/JEPVTZHRMVTHGABBZNTR/full?target=10.1080/23249935.2025.2563182)
 - June 2025: paper "[Abnormal metro passenger demand is predictable from alighting and boarding correlation](https://www.sciencedirect.com/science/article/pii/S0968090X25002438)" (authors: **Zhanhong Cheng**, Jiawei Wang, Martin Trépanier, and Lijun Sun) was accepted by Transportation Research Part C: Emerging Technologies. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X25002438) [[Slides]](assets/files/TransitData-24_ABTransformer.pdf) [[Poster]](assets/files/Poster_2025_TRB_ABTransformer.pdf) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
 - Jan 2025: I attended the 104rd Transportation Research Board Annual Meeting (TRB2025) in Washington D.C., USA. My collaborators and I presented our work in two poster/presentation sessions. Congratulations to [Xiaoxu Chen](https://scholar.google.com/citations?user=PveVQZsAAAAJ&hl) for winning the Best Paper Award from the AED60 TRB Statistical and Econometric Methods Committee!
-- Dec 2024: I am glad to give a report on "Modeling Residential Location Choice with Graph Neural Networks" at [MIT Urban Mobility Lab](https://mobility.mit.edu/). [[Slides]](assets/files/MIT_SRB2024.pdf)
-- Nov 2024: I am glad to give a talk on "Travel Behavior for Urban Mobility Prediction" to members of [SERMOS Lab](https://faculty.eng.ufl.edu/sermos-lab/) and [JGT Lab](https://jacobyan0.github.io/)! Thanks for the invitation from Dr. [Xiang (Jacob) Yan](https://www.essie.ufl.edu/people/name/xiang-yan/) and Dr. [Xilei Zhao](https://www.essie.ufl.edu/people/name/xilei-zhao/).
 
 Find more in [archived news](_posts/2020-11-08-archived-news.md)
 
