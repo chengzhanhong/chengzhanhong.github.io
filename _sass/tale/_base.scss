@@ -66,6 +66,21 @@ figcaption {
 }
 
 
+figure.news-photo {
+  display: block;
+  text-align: center;
+  margin: 0.6em auto 0;
+
+  img {
+    display: inline-block;
+  }
+
+  figcaption {
+    font-size: 0.85em;
+    color: #888;
+  }
+}
+
 figure.right{
   float: right;
   margin-top: 0;
@@ -134,4 +149,16 @@ li ol {
 .footnotes {
   font-size: 0.75em;
   color: #666;
+}
+
+.pinned-box {
+  background: #fff8e1;
+  border-left: 4px solid #f5a623;
+  padding: 0.7em 1em;
+  margin: 1em 0;
+  border-radius: 0 4px 4px 0;
+
+  p {
+    margin: 0.3em 0;
+  }
 }

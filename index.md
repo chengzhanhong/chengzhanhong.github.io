@@ -9,8 +9,10 @@ title: "About me"
 </figure>
 
 # Zhanhong Cheng
+<!--
+Incoming tenure-track Assistant Professor (May 2026), [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, Zhejiang University, China -->
 
-Postdoctoral Associate at [Urban AI Lab](http://urbanailab.com){:target="_blank"}, University of Florida, USA
+Postdoctoral Associate, [Urban AI Lab](http://urbanailab.com){:target="_blank"}, University of Florida, USA
 
 Ph.D. (2022) in Civil Engineering, Postdoc, McGill University, Canada
 
@@ -38,19 +40,24 @@ B.Eng. (2016) in Traffic Engineering, Harbin Institute of Technology, China
 
 --------------
 
+<!-- {% if site.data.pinned.size > 0 %}
+<div class="pinned-box">
+{% for item in site.data.pinned %}
+<p>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+{% endfor %}
+</div>
+{% endif %} -->
+
 ## Research interests
 
 I am interested in understanding, planning, and optimizing urban mobility systems, along with the associated infrastructure and human behavior using expertise in artificial intelligence (AI), machine learning (ML), and transportation engineering. Currently, my research centers three interrelated areas: **public transit** (e.g., [destination](https://link.springer.com/article/10.1007/s11116-020-10120-0) and [OD matrix](https://arxiv.org/abs/2403.04742) inference, [travel time](https://www.sciencedirect.com/science/article/pii/S0191261524002716) and [demand forecasting](https://www.sciencedirect.com/science/article/pii/S0968090X21002151)), **multimodal travel behavior** (e.g., travel patterns in [metro](https://link.springer.com/article/10.1007/s11116-020-10120-0), [bike-sharing](https://www.sciencedirect.com/science/article/pii/S0966692321001125), and [E-taxi](https://www.sciencedirect.com/science/article/pii/S1361920923000846)), and **spatiotemporal data modeling** (e.g., [forecasting](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2022.1128) and [imputation](https://ieeexplore.ieee.org/abstract/document/10574327)). Through my research, I aim to contribute to creating transportation systems that are more sustainable, efficient, and accessible.
 
 -------------
 ## News
-- March 2025: I was pleased to deliver a talk titled “[Data, Model, and Intelligence: Travel Behavior Modeling and Demand Prediction](http://iits.zju.edu.cn/2026/0312/c21474a3139727/page.htm)” at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm) (IITS), Zhejiang University.
-- Nov 2024: Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)" was accepted in [ISTTT 2026](https://www.isttt2026.vtk.ed.tum.de/)!
-- Sept 2025: paper "Railway booking demand forecasting for revenue management: a deep probabilistic approach" (authors: **Zhanhong Cheng**, Vilmar Jefté Rodrigues de Sousa, Karim Pérez Martínez, Thibault Barbier, and Lijun Sun) was accepted by Transportmetrica A: Transport Science. [[Full-text]](https://www.tandfonline.com/eprint/JEPVTZHRMVTHGABBZNTR/full?target=10.1080/23249935.2025.2563182)
-- June 2025: paper "[Abnormal metro passenger demand is predictable from alighting and boarding correlation](https://www.sciencedirect.com/science/article/pii/S0968090X25002438)" (authors: **Zhanhong Cheng**, Jiawei Wang, Martin Trépanier, and Lijun Sun) was accepted by Transportation Research Part C: Emerging Technologies. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X25002438) [[Slides]](assets/files/TransitData-24_ABTransformer.pdf) [[Poster]](assets/files/Poster_2025_TRB_ABTransformer.pdf) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
-- Jan 2025: I attended the 104rd Transportation Research Board Annual Meeting (TRB2025) in Washington D.C., USA. My collaborators and I presented our work in two poster/presentation sessions. Congratulations to [Xiaoxu Chen](https://scholar.google.com/citations?user=PveVQZsAAAAJ&hl) for winning the Best Paper Award from the AED60 TRB Statistical and Econometric Methods Committee!
 
-Find more in [archived news](_posts/2020-11-08-archived-news.md)
+{% include news_list.html items=site.data.news limit=5 %}
+
+[See all news →](/news/)
 
 -------------
 ## Selected publications

@@ -1,0 +1,11 @@
+{% assign news_items = include.items %}
+{% assign news_limit = include.limit | default: 9999 %}
+{% assign news_count = 0 %}
+<ul>
+{% for item in news_items %}
+  {% if news_count < news_limit %}
+  <li><strong>{{ item.date }}:</strong> {{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if item.extra_html %}{{ item.extra_html }}{% endif %}</li>
+  {% assign news_count = news_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</ul>
