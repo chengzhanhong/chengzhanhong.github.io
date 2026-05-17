@@ -3,41 +3,38 @@ layout: initial
 title: "Zhanhong Cheng"
 ---
 
-# About me
+<div class="profile">
+<img class="profile-photo" src="assets/images/zhanhong.cheng-24.jpg" alt="Zhanhong Cheng" />
+<div class="profile-bio" markdown="1">
 
-<figure class="right">
-  <img src="assets/images/zhanhong.cheng-24.jpg" width="200" alt="My portrait"/>
-  <figcaption>A photo of me taken in 2024. </figcaption>
-</figure>
+## About me
 
-I am a ZJU Hundred Talents Program Young Professor at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, where I subsequently worked as a Postdoctoral Researcher. I then joined the [Urban AI Lab](http://urbanailab.com){:target="_blank"} at the [University of Florida](https://www.ufl.edu){:target="_blank"} as a Postdoctoral Associate. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
+I am Zhanhong Cheng (程展鸿), a <span class="tooltip" tabindex="0" data-tooltip="百人计划研究员 — a tenure-track position under ZJU's Hundred Talents Program, equivalent to a U.S. Assistant Professor">ZJU 100 Young Professor</span> at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, I continued there as a Postdoctoral Researcher, then joined the [Urban AI Lab](http://urbanailab.com){:target="_blank"} at the [University of Florida](https://www.ufl.edu){:target="_blank"} as a Postdoctoral Associate. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
 
-My research explores the intersection of Artificial Intelligence (AI) and transportation systems, with extensive work in spatiotemporal data modeling, travel behavior analysis, and public transit operations. My current research interests include, but are not limited to:
-
-- **Spatiotemporal Data**: Integrating AI and statistical learning with multimodal transportation data (e.g., trajectories, traffic flow, text, and road networks) for high-fidelity travel demand forecasting and behavior analysis.
-- **Generative Mobility**: Leveraging Generative AI to address fundamental challenges in transportation, including data privacy protection, scenario generation, simulation, and system optimization.
-- **Emerging Transportation**: Exploring, understanding, and optimizing emerging transportation modes, such as Robotaxi, autonomous transit, and Urban Air Mobility.
-
-
-<div style="display: flex; align-items: center;">
-<a href="mailto:chengzhanhong@gmail.com" target="_blank">
-<img src="assets\images\envelope-solid.svg" alt="Email" class="icon" title="Email me" style="margin-right:10px">
-</a>
-
-<a href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en" target="_blank">
-<img src="assets\images\google-scholar-square.svg" alt="Google Scholar" class="icon" title="Visit Google Scholar" style="margin-right:10px">
-</a>
-
-<a href="https://github.com/chengzhanhong" target="_blank">
-<img src="assets\images\github-brands-solid.svg" alt="GitHub" class="icon" title="Visit GitHub" style="margin-right:10px">
-</a>
-
-<a href="https://www.linkedin.com/in/zhanhong-cheng/" target="_blank">
-<img src="assets\images\linkedin-brands-solid.svg" alt="LinkedIn" class="icon" title="Visit LinkedIn" style="margin-right:10px">
-</a>
+<div class="social-links">
+<a href="mailto:chengzhanhong@gmail.com" target="_blank" title="Email"><img src="assets/images/envelope-solid.svg" alt="Email" /></a>
+<a href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en" target="_blank" title="Google Scholar"><img src="assets/images/google-scholar-square.svg" alt="Google Scholar" /></a>
+<a href="https://github.com/chengzhanhong" target="_blank" title="GitHub"><img src="assets/images/github-brands-solid.svg" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/zhanhong-cheng/" target="_blank" title="LinkedIn"><img src="assets/images/linkedin-brands-solid.svg" alt="LinkedIn" /></a>
 </div>
 
---------------
+</div>
+</div>
+
+
+## Research Interests
+My research explores the intersection of Artificial Intelligence (AI) and transportation systems, with extensive work in spatiotemporal data modeling, travel behavior analysis, and public transit operations. My current research interests include, but are not limited to:
+
+- **Spatiotemporal Data**: Integrating AI and statistical learning with multimodal data (e.g., trajectories, traffic flow, text, and networks) for high-fidelity travel demand forecasting and behavior analysis.
+- **Generative Mobility**: Leveraging Generative AI to address fundamental challenges in transportation, including data privacy protection, scenario generation, simulation, and system optimization.
+- **Emerging Transportation**: Exploring, understanding, and optimizing emerging transportation modes, such as Robotaxi, autonomous transit, and Urban Air Mobility (UAM).
+
+
+
+<div class="section-head">
+<h2>News</h2>
+<a class="section-link" href="/news/">View all news →</a>
+</div>
 
 {% if site.data.pinned.size > 0 %}
 <div class="pinned-box">
@@ -47,16 +44,13 @@ My research explores the intersection of Artificial Intelligence (AI) and transp
 </div>
 {% endif %}
 
-
--------------
-## News
-
 {% include news_list.html items=site.data.news limit=5 %}
 
-[See all news →](/news/)
 
--------------
-## Selected publications
+<div class="section-head">
+<h2>Selected publications</h2>
+<a class="section-link" href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en">View all publications →</a>
+</div>
 - **Cheng, Z.**, Trepanier, M., & Sun, L. (2022). Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition. Transportation Science, 56(4), 904-918.
   [[Full-text]](https://arxiv.org/abs/2101.00466) [[Code]](https://github.com/mcgill-smart-transport/high-order-weighted-DMD) [[Slides]](https://easychair.org/smart-slide/slide/hws4n#) **(2nd best paper at [CASPT](http://www.caspt.org/) and TransitData 2022🏅)**
 - **Cheng, Z.**, Hu, L., Bu, Y., Zhou, Y., & Wang, S. (2026). Graph neural networks for residential location choice: connection to classical logit models. Transportation Research Part B: Methodological, 209, 103464.
