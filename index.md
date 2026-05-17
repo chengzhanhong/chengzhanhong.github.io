@@ -1,24 +1,23 @@
 ---
 layout: initial
-title: "About me"
+title: "Zhanhong Cheng"
 ---
 
-<figure class="left">
+# About me
+
+<figure class="right">
   <img src="assets/images/zhanhong.cheng-24.jpg" width="200" alt="My portrait"/>
   <figcaption>A photo of me taken in 2024. </figcaption>
 </figure>
 
-# Zhanhong Cheng
-<!--
-Incoming tenure-track Assistant Professor (May 2026), [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, Zhejiang University, China -->
+I am a ZJU Hundred Talents Program Young Professor at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, where I subsequently worked as a Postdoctoral Researcher. I then joined the [Urban AI Lab](http://urbanailab.com){:target="_blank"} at the [University of Florida](https://www.ufl.edu){:target="_blank"} as a Postdoctoral Associate. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
 
-Postdoctoral Associate, [Urban AI Lab](http://urbanailab.com){:target="_blank"}, University of Florida, USA
+My research explores the intersection of Artificial Intelligence (AI) and transportation systems, with extensive work in spatiotemporal data modeling, travel behavior analysis, and public transit operations. My current research interests include, but are not limited to:
 
-Ph.D. (2022) in Civil Engineering, Postdoc, McGill University, Canada
+- **Spatiotemporal Data**: Integrating AI and statistical learning with multimodal transportation data (e.g., trajectories, traffic flow, text, and road networks) for high-fidelity travel demand forecasting and behavior analysis.
+- **Generative Mobility**: Leveraging Generative AI to address fundamental challenges in transportation, including data privacy protection, scenario generation, simulation, and system optimization.
+- **Emerging Transportation**: Exploring, understanding, and optimizing emerging transportation modes, such as Robotaxi, autonomous transit, and Urban Air Mobility.
 
-M.S. (2018) in Transportation Engineering, Harbin Institute of Technology, China
-
-B.Eng. (2016) in Traffic Engineering, Harbin Institute of Technology, China
 
 <div style="display: flex; align-items: center;">
 <a href="mailto:chengzhanhong@gmail.com" target="_blank">
@@ -40,17 +39,14 @@ B.Eng. (2016) in Traffic Engineering, Harbin Institute of Technology, China
 
 --------------
 
-<!-- {% if site.data.pinned.size > 0 %}
+{% if site.data.pinned.size > 0 %}
 <div class="pinned-box">
 {% for item in site.data.pinned %}
 <p>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
 {% endfor %}
 </div>
-{% endif %} -->
+{% endif %}
 
-## Research interests
-
-I am interested in understanding, planning, and optimizing urban mobility systems, along with the associated infrastructure and human behavior using expertise in artificial intelligence (AI), machine learning (ML), and transportation engineering. Currently, my research centers three interrelated areas: **public transit** (e.g., [destination](https://link.springer.com/article/10.1007/s11116-020-10120-0) and [OD matrix](https://arxiv.org/abs/2403.04742) inference, [travel time](https://www.sciencedirect.com/science/article/pii/S0191261524002716) and [demand forecasting](https://www.sciencedirect.com/science/article/pii/S0968090X21002151)), **multimodal travel behavior** (e.g., travel patterns in [metro](https://link.springer.com/article/10.1007/s11116-020-10120-0), [bike-sharing](https://www.sciencedirect.com/science/article/pii/S0966692321001125), and [E-taxi](https://www.sciencedirect.com/science/article/pii/S1361920923000846)), and **spatiotemporal data modeling** (e.g., [forecasting](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2022.1128) and [imputation](https://ieeexplore.ieee.org/abstract/document/10574327)). Through my research, I aim to contribute to creating transportation systems that are more sustainable, efficient, and accessible.
 
 -------------
 ## News
@@ -61,13 +57,17 @@ I am interested in understanding, planning, and optimizing urban mobility system
 
 -------------
 ## Selected publications
-- **Cheng, Z.**, Trepanier, M., & Sun, L. (2022). Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition. Transportation science, 56(4), 904-918.
+- **Cheng, Z.**, Trepanier, M., & Sun, L. (2022). Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition. Transportation Science, 56(4), 904-918.
   [[Full-text]](https://arxiv.org/abs/2101.00466) [[Code]](https://github.com/mcgill-smart-transport/high-order-weighted-DMD) [[Slides]](https://easychair.org/smart-slide/slide/hws4n#) **(2nd best paper at [CASPT](http://www.caspt.org/) and TransitData 2022🏅)**
+- **Cheng, Z.**, Hu, L., Bu, Y., Zhou, Y., & Wang, S. (2026). Graph neural networks for residential location choice: connection to classical logit models. Transportation Research Part B: Methodological, 209, 103464.
+  [[Full-text]](https://arxiv.org/abs/2507.21334)
 - **Cheng, Z.**, Wang, J., Trépanier, M., & Sun, L. (2025). Abnormal metro passenger demand is predictable from alighting and boarding correlation. Transportation Research Part C: Emerging Technologies, 178, 105239.
-  [[Full-text]](https://arxiv.org/abs/2004.00992v2)
-- Chen, X., **Cheng, Z.**, Cai, H., Saunier, N., & Sun, L. (2024). Laplacian convolutional representation for traffic time series imputation. IEEE Transactions on Knowledge and Data Engineering. [[Full-text]](https://arxiv.org/abs/2212.01529) [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)
+  [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X25002438) [[Slides]](assets/files/TransitData-24_ABTransformer.pdf) [[Poster]](assets/files/Poster_2025_TRB_ABTransformer.pdf) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
 - **Cheng, Z.**, Trépanier, M., & Sun, L. (2021). Incorporating travel behavior regularity into passenger flow forecasting. Transportation Research Part C: Emerging Technologies, 128, 103200.
   [[Full-text]](https://arxiv.org/abs/2004.00992v2)
-- **Cheng, Z.**, Trépanier, M., & Sun, L. (2021). Probabilistic model for destination inference and travel pattern mining from smart card data. Transportation, 48(4), 2035-2053. [[Full-text]](https://www.researchgate.net/publication/342077959_Probabilistic_model_for_destination_inference_and_travel_pattern_mining_from_smart_card_data) [[Code]](https://github.com/mcgill-smart-transport/destination_inference)
-- Wu, F., **Cheng, Z.**, Chen, H., Qiu, T. Z., & Sun, L. (2024). Traffic state estimation from vehicle trajectories with anisotropic Gaussian processes. Transportation Research Part C: Emerging Technologies, 137, 103687. [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X24001670) [[Poster]](/assets/files/TRBAM-24_TSE_Poster.pdf) [[Code]](https://github.com/Lucky-Fan/GP_TSE)
-- Chen, X., **Cheng, Z.**, Jin, J. G., Trépanier, M., & Sun, L. (2023). Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model. Transportation Science, 57(6), 1516-1535. [[Full-text]](https://arxiv.org/abs/2206.06915) [[Slides]](assets\files\BayesianGMM_caspt.pdf)
+- **Cheng, Z.**, Trépanier, M., & Sun, L. (2021). Probabilistic model for destination inference and travel pattern mining from smart card data. Transportation, 48(4), 2035-2053.
+  [[Full-text]](https://www.researchgate.net/publication/342077959_Probabilistic_model_for_destination_inference_and_travel_pattern_mining_from_smart_card_data) [[Code]](https://github.com/mcgill-smart-transport/destination_inference)
+- Chen, X., **Cheng, Z.**, Jin, J. G., Trépanier, M., & Sun, L. (2023). Probabilistic forecasting of bus travel time with a Bayesian Gaussian mixture model. Transportation Science, 57(6), 1516-1535.
+  [[Full-text]](https://arxiv.org/abs/2206.06915) [[Slides]](assets/files/BayesianGMM_caspt.pdf)
+- Chen, X., **Cheng, Z.**, Cai, H., Saunier, N., & Sun, L. (2024). Laplacian convolutional representation for traffic time series imputation. IEEE Transactions on Knowledge and Data Engineering.
+  [[Full-text]](https://arxiv.org/abs/2212.01529) [[Slides]](https://xinychen.github.io/slides/LCR24.pdf) [[Code]](https://github.com/xinychen/LCR)
