@@ -12,7 +12,7 @@ title: "Zhanhong Cheng"
 I am Zhanhong Cheng (程展鸿), a <span class="tooltip" tabindex="0" data-tooltip="百人计划研究员 — a tenure-track position under ZJU's Hundred Talents Program, equivalent to a U.S. Assistant Professor">ZJU 100 Young Professor</span> at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, I continued there as a Postdoctoral Researcher, then joined the [Urban AI Lab](http://urbanailab.com){:target="_blank"} at the [University of Florida](https://www.ufl.edu){:target="_blank"} as a Postdoctoral Associate. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
 
 <div class="social-links">
-<a href="mailto:chengzhanhong@gmail.com" target="_blank" title="Email"><img src="assets/images/envelope-solid.svg" alt="Email" /></a>
+<a href="mailto:zhanhong.cheng@zju.edu.cn" target="_blank" title="Email"><img src="assets/images/envelope-solid.svg" alt="Email" /></a>
 <a href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en" target="_blank" title="Google Scholar"><img src="assets/images/google-scholar-square.svg" alt="Google Scholar" /></a>
 <a href="https://github.com/chengzhanhong" target="_blank" title="GitHub"><img src="assets/images/github-brands-solid.svg" alt="GitHub" /></a>
 <a href="https://www.linkedin.com/in/zhanhong-cheng/" target="_blank" title="LinkedIn"><img src="assets/images/linkedin-brands-solid.svg" alt="LinkedIn" /></a>
