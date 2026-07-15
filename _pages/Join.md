@@ -18,7 +18,7 @@ permalink: /join/
 </div>
 
 <p class="join-pdf-link">
-  If the preview does not appear, <a href="{{ '/assets/files/ZJU_PhD_Master_Opportunities_2027.pdf' | relative_url }}" target="_blank" rel="noopener">open the recruitment flyer as a PDF</a>.
+  If the preview does not appear, <a href="{{ '/assets/files/ZJU_PhD_Master_Opportunities.pdf' | relative_url }}" target="_blank" rel="noopener">open the recruitment flyer as a PDF</a>.
 </p>
 
 ---
