@@ -1,5 +1,11 @@
 - date: "July 2026"
   content: >
+    Our paper "ProST-CP: Probabilistic Spatiotemporal CP Decomposition for Shared Micro-mobility Origin-Destination Demand Modeling"
+    (authors: Xinghang Zhu, **Zhanhong Cheng**, Luis Miranda-Moreno, and Lijun Sun) was accepted by
+    Transportation Research Part C: Emerging Technologies!
+
+- date: "July 2026"
+  content: >
     I attended the [Emerging Challenges in Statistical Modeling for Transportation Research](https://www.birs.ca/events/2026/5-day-workshops/26w5601)
     workshop at the [Banff International Research Station](https://www.birs.ca/) (BIRS), Banff, Canada,
     where I presented "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)."

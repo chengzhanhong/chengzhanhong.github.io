@@ -9,31 +9,18 @@ title: "Zhanhong Cheng"
 
 ## About me
 
-I am Zhanhong Cheng (程展鸿), a <span class="tooltip" tabindex="0" data-tooltip="百人计划研究员 — a tenure-track position under ZJU's Hundred Talents Program, equivalent to a U.S. Assistant Professor">ZJU 100 Young Professor</span> at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, I continued there as a Postdoctoral Researcher, then joined the [Urban AI Lab](http://urbanailab.com){:target="_blank"} at the [University of Florida](https://www.ufl.edu){:target="_blank"} as a Postdoctoral Associate. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
+I am Zhanhong Cheng (程展鸿), a <span class="tooltip" tabindex="0" data-tooltip="百人计划研究员 — a tenure-track position under ZJU's Hundred Talents Program, equivalent to a U.S. Assistant Professor">ZJU 100 Young Professor</span> at the [Institute of Intelligent Transportation Systems](http://iits.zju.edu.cn/main.htm){:target="_blank"}, [Zhejiang University](https://www.zju.edu.cn/english/){:target="_blank"}. I received my Ph.D. (2022) in Civil Engineering from [McGill University](https://www.mcgill.ca/){:target="_blank"}, where I subsequently worked as a Postdoctoral Researcher. Before joining Zhejiang University, I was a Postdoctoral Associate at the [Urban AI Lab](http://urbanailab.com){:target="_blank"}, [University of Florida](https://www.ufl.edu){:target="_blank"}. I hold an M.S. (2018) and a B.Eng. (2016) in Transportation Engineering, both from [Harbin Institute of Technology](http://en.hit.edu.cn/){:target="_blank"}.
 
 <div class="social-links">
-<a href="mailto:zhanhong.cheng@zju.edu.cn" target="_blank" title="Email"><img src="assets/images/envelope-solid.svg" alt="Email" /></a>
-<a href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en" target="_blank" title="Google Scholar"><img src="assets/images/google-scholar-square.svg" alt="Google Scholar" /></a>
-<a href="https://github.com/chengzhanhong" target="_blank" title="GitHub"><img src="assets/images/github-brands-solid.svg" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/zhanhong-cheng/" target="_blank" title="LinkedIn"><img src="assets/images/linkedin-brands-solid.svg" alt="LinkedIn" /></a>
+<a href="mailto:zhanhong.cheng@zju.edu.cn" aria-label="Email" data-label="Email"><img src="assets/images/envelope-solid.svg" alt="" /></a>
+<a href="https://scholar.google.com/citations?user=YhrxIBAAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" data-label="Google Scholar"><img src="assets/images/google-scholar-square.svg" alt="" /></a>
+<a href="https://github.com/chengzhanhong" target="_blank" rel="noopener noreferrer" aria-label="GitHub" data-label="GitHub"><img src="assets/images/github-brands-solid.svg" alt="" /></a>
+<a href="https://www.linkedin.com/in/zhanhong-cheng/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" data-label="LinkedIn"><img src="assets/images/linkedin-brands-solid.svg" alt="" /></a>
+<a href="https://person.zju.edu.cn/chengzhanhong" target="_blank" rel="noopener noreferrer" aria-label="ZJU Homepage" data-label="ZJU Homepage"><img src="assets/images/building-columns-solid.svg" alt="" /></a>
+<a href="{{ '/assets/files/ZhanhongCV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (PDF)" data-label="CV (PDF)"><img src="assets/images/file-pdf-solid.svg" alt="" /></a>
 </div>
 
 </div>
-</div>
-
-
-## Research Interests
-My research explores the intersection of Artificial Intelligence (AI) and transportation systems, with extensive work in spatiotemporal data modeling, travel behavior analysis, and public transit operations. My current research interests include, but are not limited to:
-
-- **Spatiotemporal Data**: Integrating AI and statistical learning with multimodal data (e.g., trajectories, traffic flow, text, and networks) for high-fidelity travel demand forecasting and behavior analysis.
-- **Generative Mobility**: Leveraging Generative AI to address fundamental challenges in transportation, including data privacy protection, scenario generation, simulation, and system optimization.
-- **Emerging Transportation**: Exploring, understanding, and optimizing emerging transportation modes, such as Robotaxi, autonomous transit, and Urban Air Mobility (UAM).
-
-
-
-<div class="section-head">
-<h2>News</h2>
-<a class="section-link" href="/news/">View all news →</a>
 </div>
 
 {% if site.data.pinned.size > 0 %}
@@ -43,6 +30,19 @@ My research explores the intersection of Artificial Intelligence (AI) and transp
 {% endfor %}
 </div>
 {% endif %}
+
+## Research Interests
+My research investigates how Artificial Intelligence (AI) can help predict and simulate complex transportation systems. Building on my previous work in spatiotemporal data modeling, travel behavior analysis, and public transit operations, my current interests include:
+
+- **Generative Mobility and Policy Analysis**: Generative models of daily activities and mobility trajectories for travel-demand synthesis, missing-data recovery, and transportation-policy scenarios.
+- **AI-driven Traffic Simulation**: Learning realistic vehicle-pedestrian and vehicle-vehicle interactions from real-world multimodal data, and developing realistic simulation methods for intersections and other fine-grained traffic units.
+- **Forecasting with Large Language Models and Multimodal Data**: Studying how large language models can combine quantitative data and textual evidence to forecast transportation demand, infrastructure performance, and policy outcomes.
+
+
+<div class="section-head">
+<h2>News</h2>
+<a class="section-link" href="/news/">View all news →</a>
+</div>
 
 {% include news_list.html items=site.data.news limit=5 %}
 

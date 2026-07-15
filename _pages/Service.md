@@ -6,7 +6,7 @@ permalink: /service/
 ---
 # Professional service
 - Guest editor of the special issue [Innovative Applications of Operations Research and Machine Learning in Traffic and Transportation Management](https://www.sciencedirect.com/journal/multimodal-transportation/about/call-for-papers#call-for-papers-on-the-special-issue-innovative-applications-of-operations-research-and-machine-learning-in-traffic-and-transportation-management){:target="_blank"} in [Multimodal Transportation](https://www.sciencedirect.com/journal/multimodal-transportation){:target="_blank"}.
-- Coordinator for [Master of Science in Urban Analytics​](https://dcp.ufl.edu/urp/urban-analytics/){:target="_blank"} program, University of Florida, August 2024 -- present.
+- Coordinator for [Master of Science in Urban Analytics​](https://dcp.ufl.edu/urp/urban-analytics/){:target="_blank"} program, University of Florida, August 2024 -- April 2026.
 
 # Reviewer
 ## Journal reviewer
