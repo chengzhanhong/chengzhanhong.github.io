@@ -7,7 +7,7 @@ permalink: /join/
 
 # Join Us
 
-## International Opportunities — Fall 2027
+## Research Opportunities | Master's · PhD ｜ Fall 2027
 
 <div class="join-pdf-embed">
   <iframe
