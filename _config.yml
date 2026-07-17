@@ -1,6 +1,7 @@
 # Site settings
 title:          Zhanhong Cheng
-# description:    "Home"
+tagline:        "Computational Transportation Science at Zhejiang University"
+description:    "Zhanhong Cheng — Prediction, simulation, and decision-making for complex transportation systems"
 # baseurl:        "/tale"
 url:            "https://chengzhanhong.github.io"
 
