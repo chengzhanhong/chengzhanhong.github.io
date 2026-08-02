@@ -54,7 +54,7 @@ My research investigates how Artificial Intelligence (AI) can help predict and s
 - **Cheng, Z.**, Trepanier, M., & Sun, L. (2022). Real-time forecasting of metro origin-destination matrices with high-order weighted dynamic mode decomposition. Transportation Science, 56(4), 904-918.
   [[Full-text]](https://arxiv.org/abs/2101.00466) [[Code]](https://github.com/mcgill-smart-transport/high-order-weighted-DMD) [[Slides]](https://easychair.org/smart-slide/slide/hws4n#) **(2nd best paper at [CASPT](http://www.caspt.org/) and TransitData 2022🏅)**
 - **Cheng, Z.**, Hu, L., Bu, Y., Zhou, Y., & Wang, S. (2026). Graph neural networks for residential location choice: connection to classical logit models. Transportation Research Part B: Methodological, 209, 103464.
-  [[Full-text]](https://arxiv.org/abs/2507.21334)
+  [[Full-text]](https://www.sciencedirect.com/science/article/abs/pii/S0191261526000767)
 - **Cheng, Z.**, Wang, J., Trépanier, M., & Sun, L. (2025). Abnormal metro passenger demand is predictable from alighting and boarding correlation. Transportation Research Part C: Emerging Technologies, 178, 105239.
   [[Full-text]](https://www.sciencedirect.com/science/article/pii/S0968090X25002438) [[Slides]](assets/files/TransitData-24_ABTransformer.pdf) [[Poster]](assets/files/Poster_2025_TRB_ABTransformer.pdf) [[Code]](https://github.com/chengzhanhong/abnormal_metro_demand_predictable)
 - **Cheng, Z.**, Trépanier, M., & Sun, L. (2021). Incorporating travel behavior regularity into passenger flow forecasting. Transportation Research Part C: Emerging Technologies, 128, 103200.

@@ -1,5 +1,12 @@
 - date: "July 2026"
   content: >
+    I attended [ISTTT26](https://www.isttt2026.vtk.ed.tum.de/index.html), the 26th International Symposium
+    on Transportation and Traffic Theory, at the Technical University of Munich, Germany, where I presented
+    "[Graph neural networks for residential location choice: connection to classical logit models](https://www.sciencedirect.com/science/article/abs/pii/S0191261526000767)."
+    [[Slides]](assets/files/ISTTT2026_GNN_DCM.pdf)
+
+- date: "July 2026"
+  content: >
     Our paper "ProST-CP: Probabilistic Spatiotemporal CP Decomposition for Shared Micro-mobility Origin-Destination Demand Modeling"
     (authors: Xinghang Zhu, **Zhanhong Cheng**, Luis Miranda-Moreno, and Lijun Sun) was accepted by
     Transportation Research Part C: Emerging Technologies!
@@ -8,7 +15,7 @@
   content: >
     I attended the [Emerging Challenges in Statistical Modeling for Transportation Research](https://www.birs.ca/events/2026/5-day-workshops/26w5601)
     workshop at the [Banff International Research Station](https://www.birs.ca/) (BIRS), Banff, Canada,
-    where I presented "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)."
+    where I presented "[Graph neural networks for residential location choice: connection to classical logit models](https://www.sciencedirect.com/science/article/abs/pii/S0191261526000767)."
 
 - date: "May 2026"
   content: >
@@ -22,7 +29,7 @@
 
 - date: "Apr 2026"
   content: >
-    Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)"
+    Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://www.sciencedirect.com/science/article/abs/pii/S0191261526000767)"
     (authors: **Zhanhong Cheng**, Lingqian Hu, Yuheng Bu, Yuqi Zhou, Shenhao Wang) was accepted by
     Transportation Research Part B: Methodological!
 
@@ -35,7 +42,7 @@
 
 - date: "Nov 2025"
   content: >
-    Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://arxiv.org/abs/2507.21334)"
+    Our paper "[Graph neural networks for residential location choice: connection to classical logit models](https://www.sciencedirect.com/science/article/abs/pii/S0191261526000767)"
     was accepted in [ISTTT 2026](https://www.isttt2026.vtk.ed.tum.de/)!
 
 - date: "Sept 2025"
